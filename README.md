@@ -26,6 +26,6 @@ The notebooks folder is for the modelling workflow. The src folder is for reusab
 
 The project demonstrates time series preprocessing, LSTM based modelling, anomaly scoring, and visual review of unusual periods.
 
-## How Recruiters Should Review This
+## Project Walkthrough
 
-Start with the notebook or source file to understand the modelling workflow. This project shows machine learning curiosity beyond basic classification and regression.
+A good way to explore this project is to start with the README, then review the notebook or source file as they are added. The project shows machine learning curiosity beyond basic classification and regression.
