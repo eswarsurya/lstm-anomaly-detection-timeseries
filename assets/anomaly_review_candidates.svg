@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Top anomaly review candidates</title>
+  <desc id="desc">Horizontal bar chart showing strongest deviation scores for selected timestamps.</desc>
+  <rect width="900" height="520" fill="#ffffff"/>
+  <text x="50" y="55" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#111827">Top Anomaly Review Candidates</text>
+  <text x="50" y="85" font-family="Arial, sans-serif" font-size="15" fill="#4b5563">Ranked by deviation from recent rolling behaviour</text>
+  <line x1="285" y1="120" x2="285" y2="435" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="50" y="140" font-family="Arial, sans-serif" font-size="14" fill="#334155">2015-01-27 18:00</text>
+  <rect x="285" y="124" width="430" height="20" fill="#1d4ed8" rx="3"/>
+  <text x="730" y="140" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#111827">2.869</text>
+  <text x="50" y="185" font-family="Arial, sans-serif" font-size="14" fill="#334155">2015-01-28 08:00</text>
+  <rect x="285" y="169" width="402" height="20" fill="#2563eb" rx="3"/>
+  <text x="702" y="185" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#111827">2.682</text>
+  <text x="50" y="230" font-family="Arial, sans-serif" font-size="14" fill="#334155">2015-01-28 07:30</text>
+  <rect x="285" y="214" width="400" height="20" fill="#2563eb" rx="3"/>
+  <text x="700" y="230" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#111827">2.666</text>
+  <text x="50" y="275" font-family="Arial, sans-serif" font-size="14" fill="#334155">2014-08-23 05:30</text>
+  <rect x="285" y="259" width="389" height="20" fill="#0891b2" rx="3"/>
+  <text x="690" y="275" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#111827">2.594</text>
+  <text x="50" y="320" font-family="Arial, sans-serif" font-size="14" fill="#334155">2014-11-01 05:30</text>
+  <rect x="285" y="304" width="388" height="20" fill="#0891b2" rx="3"/>
+  <text x="690" y="320" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#111827">2.589</text>
+  <text x="50" y="365" font-family="Arial, sans-serif" font-size="14" fill="#334155">2014-12-13 05:30</text>
+  <rect x="285" y="349" width="388" height="20" fill="#0891b2" rx="3"/>
+  <text x="690" y="365" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#111827">2.589</text>
+  <text x="50" y="410" font-family="Arial, sans-serif" font-size="14" fill="#334155">2015-01-27 18:30</text>
+  <rect x="285" y="394" width="388" height="20" fill="#0f766e" rx="3"/>
+  <text x="690" y="410" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#111827">2.587</text>
+  <text x="50" y="475" font-family="Arial, sans-serif" font-size="13" fill="#64748b">The scores are review candidates for analyst/model checking, not final production alerts.</text>
+</svg>
