@@ -36,7 +36,7 @@ The full working sample contains 10,320 half-hourly records from July 2014 to Ja
 - Created sequence windows for LSTM-style input.
 - Reviewed rolling behaviour to identify unusual points for model validation.
 - Exported public output tables showing dataset profile, daily volume, and anomaly review candidates.
-- Added a clean public script that documents the reusable workflow without notebook clutter.
+- Added a clean public script and public notebook that document the reusable workflow without notebook clutter.
 - Kept the repository public-safe by avoiding personal data and unnecessary raw files.
 
 ## Repository Guide
@@ -45,6 +45,9 @@ The full working sample contains 10,320 half-hourly records from July 2014 to Ja
 data/
   README.md
   public_sample_nyc_taxi_timeseries.csv
+
+notebooks/
+  lstm_timeseries_public_workflow.ipynb
 
 outputs/
   README.md
@@ -72,7 +75,7 @@ The current public evidence shows:
 - Time range from 2014-07-01 to 2015-01-31.
 - Daily volume summaries for trend review.
 - Top anomaly review candidates ranked by deviation from recent rolling behaviour.
-- A reusable script showing the sequence-preparation and review process.
+- A reusable script and public notebook showing the sequence-preparation and review process.
 
 The anomaly candidate output is used as a transparent review layer. It supports the LSTM project by showing where unusual periods appear and where model output should be checked carefully.
 
@@ -81,16 +84,15 @@ The anomaly candidate output is used as a transparent review layer. It supports 
 Start with the README for the project purpose. Then review:
 
 1. `data/README.md` for dataset context.
-2. `outputs/dataset_profile.csv` for scope.
-3. `outputs/top_anomaly_review_candidates.csv` for unusual periods.
-4. `src/lstm_timeseries_public_workflow.py` for the reusable workflow.
-5. `reports/report_summary.md` for a short project explanation.
+2. `notebooks/lstm_timeseries_public_workflow.ipynb` for the clean notebook walkthrough.
+3. `outputs/dataset_profile.csv` for scope.
+4. `outputs/top_anomaly_review_candidates.csv` for unusual periods.
+5. `src/lstm_timeseries_public_workflow.py` for the reusable script.
+6. `reports/report_summary.md` for a short project explanation.
 
 ## Current Limitations And Next Improvements
 
-The public repository focuses on safe evidence and clean explanation. The next improvement is to add a cleaned notebook export that shows model training and reconstruction/prediction error step by step.
-
-A future version can also include clearer model evaluation plots, threshold comparison, and a short dashboard-style visual summary.
+The public repository focuses on safe evidence and clean explanation. A future version can add clearer model evaluation plots, threshold comparison, and a short dashboard-style visual summary.
 
 ## Recruiter Notes
 
