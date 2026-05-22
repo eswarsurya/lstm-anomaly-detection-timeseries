@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Daily NYC taxi activity sample</title>
+  <desc id="desc">Line chart style summary of daily volume during July 2014.</desc>
+  <rect width="900" height="520" fill="#f7fafc"/>
+  <text x="50" y="55" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#111827">Daily Volume Sample</text>
+  <text x="50" y="85" font-family="Arial, sans-serif" font-size="15" fill="#4b5563">NYC taxi time-series activity, July 2014 public sample</text>
+  <line x1="80" y1="430" x2="840" y2="430" stroke="#cbd5e1" stroke-width="2"/>
+  <line x1="80" y1="120" x2="80" y2="430" stroke="#cbd5e1" stroke-width="2"/>
+  <polyline fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="80,248 106,254 132,264 158,332 184,331 210,333 236,296 262,257 288,248 314,243 340,235 366,228 392,262 418,271 444,256 470,247 496,239 522,234 548,230 574,267 600,282 626,248 652,232 678,238 704,232 730,227 756,264 782,309 808,265 834,252"/>
+  <circle cx="730" cy="227" r="6" fill="#059669"/>
+  <text x="640" y="205" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#065f46">Highest day in sample</text>
+  <text x="80" y="465" font-family="Arial, sans-serif" font-size="13" fill="#475569">Jul 1</text>
+  <text x="780" y="465" font-family="Arial, sans-serif" font-size="13" fill="#475569">Jul 30</text>
+  <text x="34" y="125" font-family="Arial, sans-serif" font-size="13" fill="#475569">High</text>
+  <text x="36" y="430" font-family="Arial, sans-serif" font-size="13" fill="#475569">Low</text>
+</svg>
