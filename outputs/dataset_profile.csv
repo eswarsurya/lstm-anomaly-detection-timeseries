@@ -1,0 +1,9 @@
+metric,value
+records,10320
+columns,2
+start_timestamp,2014-07-01T00:00:00
+end_timestamp,2015-01-31T23:30:00
+minimum_value,8
+maximum_value,39197
+mean_value,15137.57
+review_candidates_exported,25
