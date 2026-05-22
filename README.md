@@ -1,31 +1,97 @@
-# LSTM Anomaly Detection
+# LSTM Anomaly Detection Timeseries
 
-Machine learning project focused on time series anomaly detection using an LSTM based workflow.
+Time-series anomaly detection project using LSTM modelling concepts and sequence-based analysis. The project explores how repeated behaviour over time can be learned, reviewed, and used to highlight unusual periods for further investigation.
 
 ## Why I Built This
 
-Many business datasets are time based, such as traffic, transactions, demand, or sensor readings. This project explores how sequence models can learn normal behaviour and highlight unusual patterns.
+Many analytics problems are sequential: transport demand, system traffic, transactions, sensor readings, and service usage all change hour by hour. Standard row-based analysis can miss the importance of order, seasonality, and recent behaviour.
+
+I built this project to show that I can work with time-dependent data, prepare it for machine learning, and explain anomaly detection in a way that is useful for monitoring and operational review.
 
 ## Analytics Question
 
-Can an LSTM based model identify unusual behaviour in time series data and support anomaly review?
+Can a time-series workflow learn normal behaviour and identify unusual periods that should be reviewed by an analyst?
+
+## Dataset Context
+
+The public project uses an NYC taxi time-series sample with two fields:
+
+- `timestamp`: observation time
+- `value`: activity level for that time interval
+
+The full working sample contains 10,320 half-hourly records from July 2014 to January 2015. A smaller public sample is included so the repository can be reviewed quickly without large raw files.
 
 ## Tools Used
 
-Python, TensorFlow or Keras, Pandas, NumPy, Matplotlib, Jupyter Notebook, and time series analysis.
+- Python
+- Pandas and NumPy
+- TensorFlow / Keras concepts for LSTM modelling
+- Rolling-window time-series review
+- Jupyter Notebook workflow
+- Matplotlib-style output review
 
 ## What I Implemented
 
-I prepared time series data, structured it for sequence modelling, developed an LSTM anomaly detection workflow, and reviewed model output through visual analysis.
+- Prepared timestamped data for time-series modelling.
+- Created sequence windows for LSTM-style input.
+- Reviewed rolling behaviour to identify unusual points for model validation.
+- Exported public output tables showing dataset profile, daily volume, and anomaly review candidates.
+- Added a clean public script that documents the reusable workflow without notebook clutter.
+- Kept the repository public-safe by avoiding personal data and unnecessary raw files.
 
 ## Repository Guide
 
-The notebooks folder is for the modelling workflow. The src folder is for reusable code. The data folder is for sample data and dataset notes. The reports folder is for presentation material.
+```text
+data/
+  README.md
+  public_sample_nyc_taxi_timeseries.csv
+
+outputs/
+  README.md
+  dataset_profile.csv
+  daily_volume_sample.csv
+  top_anomaly_review_candidates.csv
+  model_output_summary.md
+
+src/
+  lstm_timeseries_public_workflow.py
+
+reports/
+  report_summary.md
+
+assets/
+  daily_volume_sample.svg
+  anomaly_review_candidates.svg
+```
 
 ## Outputs And Results
 
-The project demonstrates time series preprocessing, LSTM based modelling, anomaly scoring, and visual review of unusual periods.
+The current public evidence shows:
 
-## Project Walkthrough
+- 10,320 time-series records reviewed in the working sample.
+- Time range from 2014-07-01 to 2015-01-31.
+- Daily volume summaries for trend review.
+- Top anomaly review candidates ranked by deviation from recent rolling behaviour.
+- A reusable script showing the sequence-preparation and review process.
 
-A good way to explore this project is to start with the README, then review the notebook or source file as they are added. The project shows machine learning curiosity beyond basic classification and regression.
+The anomaly candidate output is used as a transparent review layer. It supports the LSTM project by showing where unusual periods appear and where model output should be checked carefully.
+
+## How To Review This Project
+
+Start with the README for the project purpose. Then review:
+
+1. `data/README.md` for dataset context.
+2. `outputs/dataset_profile.csv` for scope.
+3. `outputs/top_anomaly_review_candidates.csv` for unusual periods.
+4. `src/lstm_timeseries_public_workflow.py` for the reusable workflow.
+5. `reports/report_summary.md` for a short project explanation.
+
+## Current Limitations And Next Improvements
+
+The public repository focuses on safe evidence and clean explanation. The next improvement is to add a cleaned notebook export that shows model training and reconstruction/prediction error step by step.
+
+A future version can also include clearer model evaluation plots, threshold comparison, and a short dashboard-style visual summary.
+
+## Recruiter Notes
+
+This project demonstrates time-series thinking, sequence modelling exposure, anomaly detection workflow design, and the ability to explain machine learning work in a practical review format.
